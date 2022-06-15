@@ -1,0 +1,35 @@
+
+.wrapper{
+    overflow: hidden;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.novelties__card {
+    border-left: solid 1px rgba(0,0,0, 0.1);
+    padding: 0 30px;
+}
+.novelties__card:last-child{
+    border-right: solid 1px rgba(0,0,0, 0.1);
+}
+.novelties__main {
+    display: flex;
+    justify-content: stretch;
+}
+
+.novelties__card-title {
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    line-height: 61px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #000000;
+}

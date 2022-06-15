@@ -1,0 +1,42 @@
+.press{
+  background-color: #ede5d8;
+
+}
+
+.press__container{
+  padding: 0;
+  background: url("/img/quotes.png") no-repeat 120px center;
+}
+
+.press__title{
+
+}
+
+.press__main{
+  margin: 0;
+}
+.press__article-description{
+  width: 690px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #404040;
+}
+
+.press__article-source-wrapper{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.press__article-source{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.press__article-link{
+
+}

@@ -1,0 +1,11 @@
+.page{
+  line-height: 1;
+  font-family: Arial, Times serif;
+}
+
+.page__wrapper{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 1vh;
+  flex-direction: column;
+}

@@ -1,0 +1,17 @@
+.section{
+
+}
+.section__container{
+  box-sizing: border-box;
+  max-width: 830px;
+  margin: 0 auto;
+  padding: 60px 15px 80px;
+}
+
+.section__header {
+  font-size: 40px;
+  line-height: 61px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,51 @@
+.history{
+
+}
+
+.history__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.history__title{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: black;
+}
+
+.history__source{
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #444444;
+}
+
+.history__link{
+  color: #834700;
+}
+
+.history__main{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.history__img{
+
+}
+
+.history__description{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #404040;
+  width: 470px;
+
+}

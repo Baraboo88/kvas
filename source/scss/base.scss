@@ -1,0 +1,59 @@
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+}
+
+//@font-face {
+//  font-family: "Open Sans";
+//  font-style: normal;
+//  font-weight: 300;
+//  src: url("../fonts/opensanslight.woff2") format("woff2"),
+//    url("../fonts/opensanslight.woff") format("woff");
+//}
+//
+//@font-face {
+//  font-family: "Open Sans";
+//  font-style: normal;
+//  font-weight: 400;
+//  src: url("../fonts/opensans.woff2") format("woff2"),
+//    url("../fonts/opensans.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+//}
+//
+//@font-face {
+//  font-family: "Open Sans";
+//  font-style: normal;
+//  font-weight: 700;
+//  src: url("../fonts/opensansbold.woff2") format("woff2"),
+//    url("../fonts/opensansbold.woff") format("woff");
+//}
+
+.visually-hidden {
+  position: absolute;
+
+  clip: rect(0 0 0 0);
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

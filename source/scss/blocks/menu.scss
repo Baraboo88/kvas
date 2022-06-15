@@ -1,0 +1,23 @@
+.menu{
+  list-style: none;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  border-top: rgba(255,255,255, 0.2) 1px solid;
+  border-bottom: rgba(255,255,255, 0.2) 1px solid;
+}
+
+.menu__item{
+
+}
+
+.menu__link{
+  display: block;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 1.2;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
